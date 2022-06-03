@@ -1,0 +1,686 @@
+/**********************/
+/******* Common *******/
+/**********************/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial Narrow;
+    overflow-x: visible;
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.content {
+    padding: 1.2vw;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 99.999%;
+    z-index: 1000;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.cover  {
+    max-height:100%; 
+    width:100%;
+}
+
+footer {
+    background-color:#002f75;
+}
+
+/***************************/
+/******* Form Button *******/
+/***************************/
+
+/*** .formbutton ***/
+/** Page centered formbuttons (1-2 buttons) with padding **/
+/* Industry.html, About.html, Academia.html, Aerospace.html, 
+Biomedical.html, Collaboration.html, index.html, Learning.html.
+Superminds.html,*/
+.formbutton{ 
+    display: block; 
+    text-align: center;
+}
+
+.formbutton form{
+    padding: 1vw 3vw; 
+    display: inline;
+}
+
+.formbutton p {
+    padding: 6vw; 
+    display: inline;
+}
+
+/*** .formbutton2 ***/
+/** Inline small formbutton (1 inline button) **/
+/* AI.html, Electromagnetic.html, */
+.formbutton2{ 
+    display: block; 
+    text-align: left;
+    padding-left: 0.8vw;
+}
+
+.formbutton2 form{
+    display: inline;
+}
+
+.formbutton2 input{
+    font-size: 1.2vh;
+}
+
+.formbutton2 p {
+    display: inline;
+    
+}
+
+/*** .formbutton3 ***/
+/** Page centered in-block formbuttons (3+ buttons) with small vw support **/
+/* Acoustics.html, Mathematics.html, Nanotechnology.html, 
+Quantum.html, */
+.formbutton3{ 
+    display: block; 
+    text-align: center;
+}
+
+.formbutton3 form{
+    padding: 0.9vw; 
+    display: inline-block;
+}
+
+.formbutton3 p {
+    display: inline-block;
+}
+
+/*** .formbutton6 ***/
+/** Table based form buttons (4, 6, 8, ...) **/
+/* Careers.html, */
+.formbutton6{ 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.formbutton6 form{
+    padding: 0.9vw; 
+    display: inline-block;
+}
+
+/*************************/
+/******* Text Area *******/
+/*************************/
+
+/*** .textarea1 ***/
+/** Light Blue Header, All Centered **/
+/* Working.html, Industry.html, Academia.html, Aerospace.html, 
+Biomedical.html, Collaboration.html, Engagement.html, index.html, */
+.textarea1 h3{ 
+    text-align: center; 
+    color: #68b6ff;
+    font-size: 1.7vw;
+}
+
+.textarea1 p{
+    text-align: center;
+    font-size: 1vw;
+}
+
+/*** .textarea2 ***/
+/** Black Header, All Centered **/
+/* Acoustics.html, Advisory.html, AI.html, Mathematics.html, 
+Nanotechnology.html, Quantum.html, */
+.textarea2 h2{ 
+    padding-left: 1vw; 
+    font-size: 1.2vw;
+}
+
+.textarea2 h3{
+    text-align: center; 
+    color: #000000;
+    font-size: 1.2vw;
+}
+
+.textarea2 p{
+    text-align: center;
+    font-size: 1vw;
+}
+
+/*** .textarea3 ***/
+/** Gray Background, Left Aligned Text, Use for Div element **/
+/* Advisory.html, */
+.textarea3 {
+    background-color: #f1f1f1;
+}
+
+.textarea3 h3{
+    margin-left: 1.2vw; 
+    padding-top: 1.1vw;
+    font-size: 1.1vw;
+}
+
+.textarea3 p{
+    margin-left: 1.2vw; 
+    font-size: 0.9vw;
+}
+
+/*** .textarea4 ***/
+/** Dark Blue Header, All Centered **/
+/* Careers.html, Electromagnetic.html, Learning.html, Superminds.html,*/
+.textarea4 h3{ 
+    text-align: center; 
+    color: #164d94;
+    font-size: 1.5vw;
+}
+
+.textarea4 p{
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+/*** .textarea5 ***/
+/** Dark Blue Header, Not Centered **/
+/* Electromagnetic.html, News.html, */
+.textarea5 h3{ 
+    color: #164d94;
+    margin-left: 1.8vw; 
+    font-size: 1.5vw;
+    line-height: 0px;
+}
+
+.textarea5 p{
+    margin-left: 2vw; 
+    font-size: 1vw;
+}
+
+.textarea5 b{
+    font-size: 1.2vw;
+}
+
+/*** .textarea6 ***/
+/** Black Header, All Left **/
+/* AI.html, */
+.textarea6 h2{ 
+    padding-left: 1vw; 
+    font-size: 1.2vw;
+}
+
+.textarea6 h3{
+    text-align: left; 
+    color: #000000;
+    font-size: 1.2vw;
+}
+
+.textarea6 p{
+    text-align: left;
+    font-size: 1vw;
+}
+
+/**************************/
+/******* Text Table *******/
+/**************************/
+
+/*** .texttable1 ***/
+/** Grid with light blue headers **/
+/* About.html, index.html*/
+.texttable1{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 1.2vw;
+}
+
+.texttable1 h3{
+    text-align: left; 
+    color: #68b6ff;
+    font-size: 1.4vw;
+} 
+
+.texttable1 p{
+    font-size: 1vw;
+} 
+
+/*** .texttable2 ***/
+/** News Special Layout **/
+/* News.html, */
+.texttable2{ 
+    text-align: left; 
+}
+
+.texttable2 h1{
+    font-size: 1vw;
+    color: #747474;
+}
+
+.texttable2 a{
+    color: #000000;
+    line-height: 0px;
+}
+
+.texttable2 p{
+    color: #000000;
+    line-height: 0px;
+    font-size: 0.9vw;
+}
+
+/*****************************/
+/******* Picture Table *******/
+/*****************************/
+
+/*** .pictable1 ***/
+/** Standard 3 column picture table (also used for alternating 2 pics with text) **/
+/* Working.html, Industry.html, About.html, Academia.html, 
+Aerospace.html, Biomedical.html, index.html, Nanotechnology.html, */
+.pictable1{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 1vw
+    
+}
+
+.pictable1 image{
+    height:100%;
+    display: block;
+    
+}
+
+.pictable1 p{
+    font-size: 0.9vw;
+    margin-top: -15px;
+
+}
+
+.pictable1 h3{
+    font-size: 1.2vw;
+    margin-top: -1px;
+}
+
+/*** .pictable2 ***/
+/** 4 column picture table **/
+/* Acoustics.html, AI.html, */
+.pictable2{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    padding-left: 1vw;
+}
+
+.pictable2 image{
+    height:100%;
+    display: block;
+}
+
+.pictable2 h3{
+    font-size: 1.2vw;
+}
+
+.pictable2 p{
+    font-size: 0.9vw;
+}
+
+/*** .pictable3 ***/
+/** 3 or 4 column table **/
+/* Acoustics.html, AI.html, Electromagnetic.html, Mathematics.html, 
+Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
+.pictable3{ 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.pictable3 image{
+    max-height:100%;
+    display: block;
+}
+
+.pictable3 b{
+    font-size: 1.1vw;
+}
+
+.pictable3 p{
+    font-size: 0.9vw;
+}
+
+/*** .pictable4 ***/
+/** Advisory Special Layout **/
+/* Advisory.html, */
+.pictable4{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 40px
+}
+
+.pictable4 td{
+    padding-bottom: 90px;
+}
+
+.pictable4 h3{
+    color: #68b6ff; 
+    font-size: 1.6vh;
+}
+
+.pictable4 p{
+    font-size: 1.4vh;
+}
+
+.pictable4 b{
+    font-size: 2vh;
+}
+
+.pictable4 image{
+    height:40%; 
+    width:15vh; 
+    display: block;
+}
+
+/*** .pictable5 ***/
+/** 2 column picture table **/
+/* Careers.html, Collaboration.html, Learning.html*/
+.pictable5{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 0.2vw;
+}
+
+.pictable5 b{
+    font-size: 1.2vw;
+}
+
+.pictable5 p{
+    font-size: 0.9vw;
+}
+
+/*** .pictable6 ***/
+/** Careers Special Layout **/
+/* Careers.html, */
+.pictable6{ 
+    background-color: #b8ddff70; 
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+.pictable6 div{
+    background-color: #2a4055d5; 
+    color: white; 
+    height: 24.7vw; 
+    width:42vw; 
+    display: block; 
+    padding-left: 1vw; 
+    padding-top: 1px; 
+    overflow: hidden;
+}
+
+/****************************/
+/******* (Menu?) Bars *******/
+/****************************/
+
+/*** .navbarTop ***/
+/*  */
+.navbarTop a { 
+    color: #000000;
+    padding: 1.2vw;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+/*** .navbarBottom2 ***/
+/*  */
+.navbarBottom2 a { 
+    color: #ffffff;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 1vw;
+    padding-bottom: 0px;
+}
+
+/*** .navbarBottom3 ***/
+/* Engagement.html, Working.html, */
+.navbarBottom3 a { 
+    color: #ffffff;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 1vw;
+    padding-bottom: 0px;
+    
+}
+
+/*** .bottombar1 ***/
+/* About.html, */
+.bottombar1 { 
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1vw; 
+    text-align: left; 
+    background-color: rgb(34, 60, 99); 
+    padding-left: 1vw; 
+    padding-top: 3.1em; 
+    margin-top: -1.6em;
+    
+}
+
+.bottombar1 a {
+    color: #ffffff;
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 1vw;
+    background-color: rgb(34, 60, 99); 
+}
+
+/*** .topbar1 ***/
+/* About.html, */
+.topbar1 { 
+    color: #ffffff;
+    padding: 13px;
+    text-decoration: none;
+    text-align: right; 
+    min-height: 32px; 
+    background-color: rgb(34, 60, 99); 
+    padding-left: 1vw;
+    margin-top: 1.6em;
+}
+
+.topbar1 u {
+    margin-top: 11em;
+    padding-right: 2vw; 
+    font-size: 1.2vw;
+}
+
+.topbar1 p {
+    padding-right: 2vw; 
+    padding-bottom: 5px;
+    font-size: 1vw;
+}
+
+/*** .topbar2 ***/
+/*  */
+.topbar2 {
+    margin-top: -1em; 
+    text-align: left; 
+    background-color: rgb(34, 60, 99); 
+    padding: 1.2vw;
+}
+
+.topbar2 a {
+    color: #ffffff;
+    padding: 6px;
+    text-decoration: none;
+    padding-bottom: 0px;
+    padding-top: 0.9vw; 
+    font-size: 1vw;
+}
+
+/***********************/
+/******* Buttons *******/
+/***********************/
+
+.button1 {
+    background-color: #002f75;
+    border: black;
+    color: white;
+    padding: 0.9vw 1.1vwpx;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin: auto;
+    display:block;
+}
+
+.button2 {
+    background-color: #002f75;
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: #002f75;
+    border: black;
+    color: white;
+    padding: 8px 22px;
+    width: 28vw;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display:block
+}
+
+.button4 {
+    background-color: #002f75;
+    border: black;
+    color: white;
+    padding: 8px 22px;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display:block
+}
+
+/****************************/
+/******* Image Button *******/
+/****************************/
+
+.imgbutton {
+    background-color: #1c87c9;
+    color: white;
+    padding: 1%;
+    padding-top: 0.3%;
+    padding-bottom: 0.5%;
+    position: absolute;
+    text-decoration: none;
+    font-size: 0.8vw;
+    z-index:1;
+    border-color: #000000;
+    border-width: thin;
+    border-style: solid;
+}
+
+.testbtn{
+    margin-left: -4.1%;
+    margin-top: 14.85vw;
+}
+
+.aboutbtn {
+    margin-left: -3.87%;
+    margin-top: 16.15vw;
+}
+
+.academiabtn{
+    margin-left: -3.87%;
+    margin-top: 18.77vw;
+}
+
+.aerospacebtn{
+    margin-left: -3.87%;
+    margin-top: 18.92vw;
+}
+
+.biomedicalbtn{
+    margin-left: -3.87%;
+    margin-top: 18.78vw;
+}
+
+.careersbtn{
+    margin-left: -4.7%;
+    margin-top: 19.00vw;
+}
+
+.collaborationbtn{
+    margin-left: -3.87%;
+    margin-top: 26.10vw;
+}
+
+.indexbtn{
+    margin-left: -3.87%;
+    margin-top: 18.07vw;
+}
+
+.industrybtn{
+    margin-left: -3.87%;
+    margin-top: 18.91vw;
+}
+
+.learningbtn{
+    margin-left: -4.1%;
+    margin-top: 16.00vw;
+}
+
+.mathematicsbtn{
+    margin-left: -3.87%;
+    margin-top: 18.95vw;
+}
+
+.quantumbtn{
+    margin-left: -3.87%;
+    margin-top: 16.9vw;
+}
+
+.supermindsbtn{
+    margin-left: -3.87%;
+    margin-top: 26.37vw;
+}
+
+/*********************/
+/******* Icons *******/
+/*********************/
+
+.icon{
+    padding-left: 20px;
+    width: 4vw;
+}
+
+.icon2{
+    width: 4vw;
+}
+
+.iconunderlay1{
+    position: absolute;
+    z-index: -1;
+    width: 10vw;
+    margin-top: -1.00%;
+    margin-left: -8.95%;
+}
+
+.iconunderlay2{
+    position: absolute;
+    z-index: -1;
+    width: 10vw;
+    margin-top: -1.70%;
+    margin-left: -6.8%;
+}

@@ -1,0 +1,105 @@
+/**************************/
+/***** Picture Tables *****/
+/**************************/
+/* this is a testing file 
+for replacing the current 
+tables in the css file, with
+the goal of being able to 
+assign a table type and it
+just working */
+/**************************/
+
+table p{
+    font-size: 0.9vw;
+    margin-top: -1vw;
+
+}
+
+table h3{
+    font-size: 1.2vw;
+    margin-top: -1px;
+}
+
+/* Two Column Span */
+.imgtable2{
+    margin-left: auto; 
+    margin-right: auto;  
+}
+
+table.imgtable2 img{
+    width: 32vw;
+}
+
+/* Two Column Full */
+.imgtable2Full{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%; 
+}
+
+table.imgtable2Full img{
+    width: 49vw;
+}
+
+/* Three Column Span */
+table.imgtable3{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table.imgtable3 img{
+    width: 28vw;
+}
+
+/* Three Column Full */
+table.imgtable3Full{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+}
+
+table.imgtable3Full img{
+    width: 32.70vw;
+}
+
+/* Four Column Span */
+table.imgtable4{
+    margin-left: auto; 
+    margin-right: auto;    
+}
+
+table.imgtable4 img{
+    width: 22vw;
+}
+
+/* Four Column Full */
+table.imgtable4Full{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%   
+}
+
+table.imgtable4Full img{
+    width: 24.47vw;
+}
+
+/* Five Column Span */
+table.imgtable5{
+    margin-left: auto; 
+    margin-right: auto;    
+}
+
+table.imgtable5 img{
+    width: 17vw;
+}
+
+/* Five Column Full */
+table.imgtable5Full{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%   
+}
+
+table.imgtable5Full img{
+    width: 19vw;
+}
