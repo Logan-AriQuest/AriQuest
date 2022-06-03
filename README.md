@@ -1,1 +1,2 @@
-AriQuest
+Redirecting... 
+Please refresh if you see this page.
