@@ -61,13 +61,13 @@
   .menu > ul > li {
 	float: left;
 	background: #ffffff;
-	font-size: 1vw;
-	padding-top: 1.5vh;
+	font-size: 1vw; /* font size of menu items */
+	padding-top: 1.5vh; /* padding of menu items */
 	padding-bottom: 0.4vh;
   }
   .menu > ul > li a {
 	text-decoration: none;
-	padding: 1.5em 2em;
+	padding: 1.5em 0.9em; /* second em changes spacing of menu items */
 	display: block;
   }
   .menu > ul > li:hover {

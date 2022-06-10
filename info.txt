@@ -3,53 +3,6 @@ https://www.tutorialbrain.com/css_tutorial/css_font_family_list/
 
 TODO!
 
-1. Link Pages Together
-2. Shrink navmenu by small amount
-3. double size of advisory pics (also left align)
-4. ai.html, 4 pics full page, make buttons larger
-4. mathematics.html, 4 pics full page, 2 x 3 pics match
-5. acoustics.html full images
-6. index.html paragrapg proximity
-7. bigger and same size buttons, and inline button padding
-
-FOR FUTURE PAGES!
-1. Resize images in tables to be uniform (using eclipse java program :)
-2. Image Buttons where necessary
-5. Change overflow in body back to hidden
-6. Continue cleaning CSS
-
-
-
-
-<==========================================>
-----------------
-Completed Pages
-----------------
-About.html
-Academia.html
-Acoustics.html
-
-Aerospace.html
-AI.html
-Biomedical.html
-Careers.html
-Collaboration.html
-Electromagnetic.html
-
-index.html
-Industry.html
-Internships.html
-Learning.html
-Mathematics.html
-Nanotechnology.html
-News.html
-Quantum.html
-Superminds.html
-
-----------------
-Not Completed
-----------------
-
-Advisory.html
-Engagement.html
-Working.html
+1. Add new Pages
+2. Fix Navmenu clipping & Erronous Loading for Footer/navmenu
+3. Import Font Bahnschrift Condensed & Bahnschrift Light

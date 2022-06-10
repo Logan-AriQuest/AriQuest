@@ -457,14 +457,13 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     color: #ffffff;
     text-decoration: none;
     font-size: 1vw;
-    padding-bottom: 1vw;
     font-size: 1vw; 
     text-align: left; 
     background-color: rgb(34, 60, 99); 
-    padding-left: 1vw; 
-    padding-top: 3.1em; 
-    margin-top: -1.6em;
-    
+    padding: 1.2vw;
+    z-index: 2;
+    margin-top: -1vw;
+    position: relative;
 }
 
 .bottombar1 a {
@@ -518,6 +517,33 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     font-size: 1vw;
 }
 
+/*** .topbar1 ***/
+/* business.html, */
+.topbar3 { 
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    text-align: right; 
+    min-height: 32px; 
+    background-color: rgb(51, 111, 206); 
+    padding-left: 1vw;
+    margin-top: 1.6em;
+    text-align: left;
+}
+
+.topbar3 b {
+    font-size: 3.2vw;
+}
+
+.topbar3 div {
+    margin-top: -2vw;
+    text-align: right;
+}
+
+.topbar3 i {
+    font-size: 2vw;
+}
+
 /***********************/
 /******* Buttons *******/
 /***********************/
@@ -526,7 +552,20 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     background-color: #002f75;
     border: black;
     color: white;
-    padding: 0.9vw 1.1vwpx;
+    padding: 0.9vw 1.1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+    margin: auto;
+    display:block;
+}
+
+.button1b {
+    background-color: #3069be;
+    border: black;
+    color: white;
+    padding: 0.9vw 1.1vw;
     text-align: center;
     text-decoration: none;
     font-size: 1.2vw;
@@ -545,8 +584,32 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     cursor: pointer;
 }
 
+.button2b {
+    background-color: #3069be;
+    border: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
 .button3 {
     background-color: #002f75;
+    border: black;
+    color: white;
+    padding: 8px 22px;
+    width: 28vw;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display:block
+}
+
+.button3b {
+    background-color: #3069be;
     border: black;
     color: white;
     padding: 8px 22px;
@@ -572,6 +635,19 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     display:block
 }
 
+.button4b {
+    background-color: #3069be;
+    border: black;
+    color: white;
+    padding: 8px 22px;
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    display:block
+}
+
 /****************************/
 /******* Image Button *******/
 /****************************/
@@ -582,78 +658,79 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
     padding: 1%;
     padding-top: 0.3%;
     padding-bottom: 0.5%;
-    position: absolute;
     text-decoration: none;
     font-size: 0.8vw;
-    z-index:1;
+    z-index: 10;
     border-color: #000000;
     border-width: thin;
     border-style: solid;
+    position:relative;
+    text-align: right;
 }
 
-.testbtn{
+.testbtn{ /* legacy */
     margin-left: -4.1%;
     margin-top: 14.85vw;
 }
 
-.aboutbtn {
-    margin-left: -3.87%;
-    margin-top: 16.15vw;
+.aboutbtn { /* about | 3 pics */
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
 .academiabtn{
-    margin-left: -3.87%;
-    margin-top: 18.77vw;
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
-.aerospacebtn{
-    margin-left: -3.87%;
-    margin-top: 18.92vw;
+.aerospacebtn{ /* about | 2 pics */
+    top: -1.55rem;
+    margin-left: 93.9%;
 }
 
 .biomedicalbtn{
-    margin-left: -3.87%;
-    margin-top: 18.78vw;
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
-.careersbtn{
-    margin-left: -4.7%;
-    margin-top: 19.00vw;
+.careersbtn{ /*join us | 2 pics */
+    top: -1.55rem;
+    margin-left: 92.9%;
 }
 
 .collaborationbtn{
-    margin-left: -3.87%;
-    margin-top: 26.10vw;
+    top: -1.55rem;
+    margin-left: 93.9%;
 }
 
 .indexbtn{
-    margin-left: -3.87%;
-    margin-top: 18.07vw;
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
 .industrybtn{
-    margin-left: -3.87%;
-    margin-top: 18.91vw;
+    top: -1.55rem;
+    margin-left: 93.9%;
 }
 
-.learningbtn{
-    margin-left: -4.1%;
-    margin-top: 16.00vw;
+.learningbtn{ /* about | 3 pics | weird spacing */
+    top: -1.5rem;
+    margin-left: 90.35%;
 }
 
 .mathematicsbtn{
-    margin-left: -3.87%;
-    margin-top: 18.95vw;
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
 .quantumbtn{
-    margin-left: -3.87%;
-    margin-top: 16.9vw;
+    top: -1.5rem;
+    margin-left: 92.25%;
 }
 
 .supermindsbtn{
-    margin-left: -3.87%;
-    margin-top: 26.37vw;
+    top: -1.55rem;
+    margin-left: 93.9%;
 }
 
 /*********************/
@@ -667,6 +744,15 @@ Nanotechnology.html, Quantum.html, Learning.html, Superminds.html,*/
 
 .icon2{
     width: 4vw;
+}
+
+.icon3{
+    padding-left: 20px;
+    width: 8vw;
+}
+
+.icon4{
+    width: 8vw;
 }
 
 .iconunderlay1{
