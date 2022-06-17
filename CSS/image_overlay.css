@@ -7,8 +7,20 @@
     position: absolute;
     top: 0;
     left: 0;
+    /* 3 column
     width: 32.6vw;
     height: 21.65vw;
+    */
+
+    /* 4 column
+    width: 24.45vw;
+    height: 16.2vw;
+    */
+
+    width: 24.45vw;
+    height: 16.2vw;
+
+    /********/
     background: rgba(0,0,0,0.6);
     color: white;
     display: flex;
@@ -35,4 +47,47 @@
 
 .image_desc{
     font-size: 2vw;
+}
+
+.image_overlay_4-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 3 column
+    width: 32.6vw;
+    height: 21.65vw;
+    */
+
+    /* 4 column
+    width: 24.45vw;
+    height: 16.2vw;
+    */
+
+    width: 73.41vw;
+    height: 16.2vw;
+    margin-top: -2.5vw;
+
+    /********/
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    backdrop-filter: blur(2px);
+}
+
+.image_overlay_4-3 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_4-3:hover{
+    opacity: 1;
+}
+
+.image_overlay_4-3:hover > * {
+    transform: translateY(0);
 }
