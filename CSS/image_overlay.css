@@ -3,7 +3,29 @@
     
 }
 
+.image_superlay{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24.45vw;
+    height: 16.2vw;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.image_overlay:hover + .image_superlay{
+    display: none;
+}
+
 .image_overlay{
+    z-index: 3;
     position: absolute;
     top: 0;
     left: 0;
@@ -46,7 +68,27 @@
 }
 
 .image_desc{
+    font-size: 1.5vw;
+}
+
+.image_title{
     font-size: 2vw;
+}
+
+.image_superlay_4_3{
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 73.41vw;
+    height: 16.2vw;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .image_overlay_4_3{
@@ -65,7 +107,6 @@
 
     width: 73.41vw;
     height: 16.2vw;
-    margin-top: -2.5vw;
 
     /********/
     background: rgba(0,0,0,0.6);
